@@ -18,7 +18,8 @@
   },
   "homepage": "https://github.com/rickyjoet/hw10#readme",
   "dependencies": {
-    "inquirer": "^8.1.0"
+    "inquirer": "^8.1.0",
+    "util": "^0.12.4"
   },
   "devDependencies": {
     "jest": "^27.0.4"
