@@ -10,10 +10,10 @@ const generateTeam = team => {
           <h3> Name:  ${manager.getName()}</h3>
           <p class="card-text">
             <ul>
-              <li>${manager.getID()}</li>
-              <li>${manager.getName()}</li>
-              <li>${manager.getEmail()}</li>
-              <li>${manager.getRole()}</li>
+              <li>Manager ID: ${manager.getID()}</li>
+              <li>Manager Name: ${manager.getName()}</li>
+              <li>Manager Email: ${manager.getEmail()}</li>
+              <li>Manager Role: ${manager.getRole()}</li>
             </ul>
           </p>
         </div>
@@ -31,11 +31,11 @@ const generateTeam = team => {
             <h3> Name: ${intern.getName()} </h3>
             <p class="card-text">
               <ul>
-                <li>${intern.getID()}</li>
-                <li>${intern.getName()}</li>
-                <li>${intern.getEmail()}</li>
-                <li>${intern.getRole()}</li>
-                <li>${intern.getSchool()}</li>
+                <li>Intern ID: ${intern.getID()}</li>
+                <li>Intern Name: ${intern.getName()}</li>
+                <li>Intern Email: ${intern.getEmail()}</li>
+                <li>Intern Role: ${intern.getRole()}</li>
+                <li>Intern School: ${intern.getSchool()}</li>
               </ul>
             </p>
           </div>
@@ -50,14 +50,14 @@ const generateTeam = team => {
         <div class="card text-white bg-danger mb-3" style="max-width: 18rem;">
           <div class="card-body">
             <h5 class="engineer">Engineer</h5>
-            <h3> Name: ${engineer.getName()} </h3>
+            <h3> Engineer Name: ${engineer.getName()} </h3>
             <p class="card-text">
               <ul>
-                <li>${engineer.getID()}</li>
-                <li>${engineer.getName()}</li>
-                <li>${engineer.getEmail()}</li>
-                <li>${engineer.getRole()}</li>
-                <li>${engineer.getHub()}</li>
+                <li>Engineer ID: ${engineer.getID()}</li>
+                <li>Engineer Name: ${engineer.getName()}</li>
+                <li>Engineer Email: ${engineer.getEmail()}</li>
+                <li>Engineer Role: ${engineer.getRole()}</li>
+                <li>Engineer gitHub: ${engineer.getHub()}</li>
               </ul>
             </p>
           </div>

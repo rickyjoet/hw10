@@ -1,13 +1,13 @@
-const employee = require("../lib/employee");
+// const employee = require("../lib/employee");
 
-describe("employee", () => {
-    it("should return an object containing name, id, and email property when called with employee keyword", () => {
-      const obj = new employee("Ricky", 1, "ricky@gmail.com");
+// describe("employee", () => {
+//     it("should return an object containing name, id, and email property when called with employee keyword", () => {
+//       const obj = new employee("Ricky", 1, "ricky@gmail.com");
 
-      expect("name" in obj).toEqual(true);
-      expect("id" in obj).toEqual(true);
-      expect("email" in obj).toEqual(true);
-    });
+//       expect("name" in obj).toEqual(true);
+//       expect("id" in obj).toEqual(true);
+//       expect("email" in obj).toEqual(true);
+//     });
 
     // it("should set 'number' when created", () => {
     //   const num = 108;
@@ -22,4 +22,4 @@ describe("employee", () => {
 
     //   expect(obj.number).toEqual(0);
     // });
-  });
+  // });
